@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+header  {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: #fff;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    color: #377e7f;
+    font-weight: bold;
+}
+
+nav > ul > li {
+    padding: 10px 20px;
+}
+
+main {
+    margin-top: 100px;
+    flex:1;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#logo {
+    width: 2rem;
+    padding: 0.5rem;
+}
+
+.rezept {
+    background:#EEE;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.rezept-name {
+    font-size: 2rem;
+    font-family: Brush Script MT, cursive;
+    color: #377e7f;
+    margin: 10px;
+}
+
+.rezept-h3 {
+    color: #377e7f;
+    margin: 10px;
+}
+
+main > * > ul {
+    list-style-type: circle;
+    padding: 10px;
+    margin: 10px;
+}
+
+main > * > ul li::marker {
+    color: #377e7f;
+}
+
+main > * > ol {
+    list-style-type: upper-roman;
+    padding: 10px;
+    margin: 10px;
+}
+
+main > * > ol li::marker {
+    color: #377e7f;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+#aboutimg {
+    display: block;
+    max-width: 90%;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:#EEE;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    background:#FFF;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    align-content:center;
+    justify-content:center;
+}
+
+.columntop {
+    color: #377e7f;
+    font-weight: bold;
+}
+
+#start {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background:#EEE;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.maincolumn {
+    flex-direction: column;
+    width: 50%;
+    margin:0;
+    padding:0;
+    align-items: center;
+}
+
+#mainleft {
+    
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#baking {
+    float:right;
+    max-height: 70vh;
+    max-width:100%;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #377e7f;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0.5rem 0 0;
+}
+
+#buttonrecipe {
+    background-color: #377e7f;
+    color: #FFF;
+}
+
+#buttonabout {
+    background-color: #FFF;
+    color: #377e7f;
+}
+
+.dish {
+    margin: 0.5rem;
+    width:15rem;
+}
+
+footer {
+    background-color: #EEE;
+    width:100%;
+    bottom:0;
+}
+
+footer > p {
+    margin:10px 10px 0px 10px;
+}
+
+footer > ul {
+    list-style-type: none;
+    color: #000;
+    font-weight: bold;
+    margin:0px 10px 0px 10px;
+    padding:0;
+}
+
+#last {
+    margin-bottom: 5px;
+}
