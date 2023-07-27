@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>
+            What's cooking? - Submit recipe Ideas
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <script src="../js/button.js"></script>
+        <link rel="icon" type="image/x-icon" href="../img/chefhat.png" />
+    </head>
+    <body>
+        <button id="topButton" title="Go to top">&#129029;</button> 
+        <header>
+            <nav>
+                <div role="presentation" aria-hidden="true">
+                    <ul>
+                        <li><a href="popular.html">popular recipes</a></li>
+                        <span>&#126;</span>
+                        <li><a href="about.html">Who's cooking?</a></li>
+                    </ul>
+                </div>
+                <div role="presentation" aria-hidden="true">
+                    <a href="../index.html">
+                        <img src="../img/chefhat.png" id="headerimg" alt="chef's hat logo" title="Designed by Freepik" />
+                    </a>
+                    <a href="../index.html"><h1>What's cooking?</h1></a>
+                </div>
+                <div role="presentation" aria-hidden="true">
+                    <ul>
+                        <li><a href="meal-ideas.html">Meal Ideas</a></li>
+                        <span>&#126;</span>
+                        <li><a href="submit.html">Submit Recipe</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="recipe" class="imgbckgrd">
+            <h2>
+                Submit your favorite recipe!
+            </h2>
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="submission">
+                    <label for="filepick">Upload your recipe (*.doc, *.docx, *.pdf, *.odt)</label>
+                </div>
+                <div class="submission">
+                    <input type="file" id="filepick" accept=".pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple/>
+                </div>
+                <div class="submission">
+                    <input type="submit" name="submit" />
+                </div>
+            </form>
+        </section>
+        <p class="source">Picture by freepik</p>
+        <footer>
+            <img src="../img/chefhat.png" alt="chefhat" id="footer-img">
+            <ul>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="submit.html">Suggest a recipe</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
